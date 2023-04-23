@@ -1,0 +1,17 @@
+#actors{
+  padding: 60px 0;
+  h1{
+    padding: 10px 0;
+  }
+  .actors{
+    &--card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h4{
+        margin: 10px 0;
+      }
+    }
+  }
+}

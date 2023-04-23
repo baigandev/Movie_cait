@@ -1,0 +1,33 @@
+@import "src/style/Header";
+@import "src/style/Home";
+@import "src/style/Footer";
+@import "src/style/Popular";
+@import "src/style/Toprated";
+@import "src/style/Moviedetails";
+@import "src/style/Block";
+@import "src/style/Actors";
+@import "src/style/Trailer";
+@import "src/style/ActorDetails";
+@import "src/style/Card";
+@import "src/style/Content";
+@import "src/style/Question";
+@import "src/style/Film";
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}

@@ -1,0 +1,28 @@
+#popular{
+  padding: 50px 0;
+  background: #101010;
+  color: white;
+  .popular{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 9rem;
+    &--card{
+      width: 25%;
+      text-align: center;
+
+      img{
+        width: 100%;
+        border-radius: 12px;
+        -webkit-box-shadow: 0  0  57px 3px rgba(26, 28, 30, 0.52);
+        -moz-box-shadow: 0  0  57px 3px rgba(26, 28, 30, 0.52);
+        box-shadow: 0  0  57px 3px rgba(26, 28, 30, 0.52);
+      }
+      h2{
+        margin-top: 20px;
+      }
+
+    }
+
+  }
+}

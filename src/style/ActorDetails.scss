@@ -1,0 +1,15 @@
+#actorsDetails{
+  padding: 70px 0;
+.actorsDetails{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &--info{
+    width: 70%;
+    h3{
+      padding: 15px 0;
+    }
+  }
+}
+}

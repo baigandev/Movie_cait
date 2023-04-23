@@ -1,0 +1,29 @@
+#block{
+  padding: 50px 0;
+  background: #000000;
+  .block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--info{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column;
+
+      h1{
+        font-size: 48px;
+        width: 600px;
+        color: white;
+        font-weight: 800;
+      }
+      p{
+        padding: 10px 0;
+        font-size: 20px;
+        color: white;
+        width: 450px;
+      }
+
+    }
+  }
+}

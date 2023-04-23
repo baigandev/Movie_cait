@@ -1,0 +1,37 @@
+#boxes{
+  padding: 50px 0;
+  background: #000000;
+  .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    &--info{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-direction: column;
+      h1{
+        font-size: 48px;
+        width: 600px;
+        color: white;
+        font-weight: 800;
+      }
+      p{
+        padding: 10px 0;
+        font-size: 20px;
+        color: white;
+        width: 450px;
+      }
+
+    }
+    img{
+      z-index: 1;
+    }
+    iframe{
+      position: absolute;
+      right: 172px;
+      top: 30px;
+    }
+  }
+}
