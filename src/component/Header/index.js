@@ -42,15 +42,7 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <div className="header--content">
-                        <h1>Фильмы, сериалы и многое другое без ограничений.</h1>
-                        <p>Смотрите где угодно. Отменить подписку можно в любое время.</p>
-                        <p>Готовы смотреть? Введите адрес электронной почты, чтобы оформить или возобновить подписку.</p>
-                        <div className="header--content__search">
-                            <input type="email" placeholder="Введите почту"/>
-                            <button>Начать смотреть</button>
-                        </div>
-                    </div>
+
 
                 </div>
             </div>

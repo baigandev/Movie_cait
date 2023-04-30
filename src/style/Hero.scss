@@ -1,0 +1,69 @@
+#hero{
+  background: url("https://thumbs.dfs.ivi.ru/storage2/contents/3/b/b0f6c249fcba8c7599c72e61232217.jpg") no-repeat center/cover;
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    &--content{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+
+      h1{
+        font-size: 3rem;
+        font-weight: 900;
+        color: white;
+        width: 900px;
+        text-align: center;
+        padding-top: 150px;
+
+      }
+
+      p{
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        margin: 10px 0;
+      }
+
+      &__search{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        input{
+          padding: 15px 40px;
+          margin: 0 20px;
+          outline: none;
+          background: 0;
+          color: white;
+          font-size: 20px;
+          &:hover{
+            border: 2px solid #c51313;
+          }
+          &::placeholder{
+            color: #7c7676;
+          }
+        }
+        button{
+          padding: 15px 50px;
+          font-size: 20px;
+          background: #c51313;
+          color: white;
+          border-radius: 8px;
+          transition: .4s;
+          &:hover{
+            background: 0;
+            border: 2px solid red;
+          }
+        }
+
+      }
+
+    }
+
+  }
+}

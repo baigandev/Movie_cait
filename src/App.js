@@ -6,11 +6,7 @@ import Home from "./pages/Home";
 import Popular from "./pages/Popular";
 import TopRated from "./pages/TopRated";
 import MovieDetails from "./pages/MovieDetails";
-import Block from "./component/Block";
 import ActorDetails from "./component/ActorDetails";
-import Card from "./component/Card";
-import Content from "./component/Content";
-import Question from "./component/Question";
 import Search from "./pages/Search";
 
 function App() {
@@ -25,10 +21,6 @@ function App() {
                 <Route path={"/actor/details/:personId"} element={<ActorDetails/>}/>
                 <Route path={"/search/search_movie/:movieName"} element={<Search/>}/>
             </Routes>
-            <Card/>
-            <Block/>
-            <Content/>
-            <Question/>
             <Footer/>
 
         </div>
